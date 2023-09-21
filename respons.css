@@ -1,0 +1,215 @@
+
+
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+
+    .wrapper {
+        display: block;
+    }
+    
+    .register {
+        position: absolute;
+        top: 0;
+    }
+
+    #api-wrapper li > div {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    #api-wrapper li > div {
+        height: 450px;
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+    .burger {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width: 1410px) {
+    #api-wrapper li {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .flip-container {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .flip-card {
+        height: 485px;
+    }
+
+}
+
+
+
+@media (max-width: 1280px) {
+    .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 50px;
+        height: 2100px;
+        margin-top: -140px;
+    }
+
+    #about-us > h3 {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 839px) {
+    .recipes-Wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .button {
+        width: 150px;
+        height: 50px;
+    }
+
+    #api-wrapper {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 610px) {
+    .recipes-text > h4 {
+        font-size: 30px;
+    }
+    
+    .recipes-text > p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 560px) {
+    #api-wrapper li > div {
+        height: 500px;
+    }
+}
+
+
+
+@media (max-width: 499px) {
+    .pWrapper > h2 {
+        font-size: 20px;
+    }
+    
+    .pWrapper > p {
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 460px) {
+    .row {
+        width: 95%;
+        height: 1800px;
+        gap: 10px;
+        margin-top: -60px;
+    }
+
+    .col {
+        width: 90%;
+    }
+
+    #about-us > h3 {
+        font-size: 30px;
+    }
+
+    .info {
+        top: 446px;
+    }
+    .back-footer {
+        margin-top: 60px;
+    }
+
+    .flip-card-back {
+        height: 450px;
+    }
+
+    .footer-a {
+        font-size: 20px;
+    }
+
+    .contact {
+        width: 90%;
+    }
+
+    .footer-icons {
+        width: 90%;
+    }
+
+}
+
+
+@media (max-width: 424px) {
+    .back-footer {
+        margin-top: 50px;
+    }
+
+    .flip-card-back {
+        height: 450px;
+    }
+}
+
+@media (max-width: 404px) {
+    .back-footer {
+        margin-top: 30px;
+    }
+
+    .flip-card-back {
+        height: 470px;
+    }
+}
+
+@media (max-width: 390px) {
+    .row {
+        height: 1600px;
+    }
+
+    .info {
+        top: 370px;
+    }
+
+    .back-footer {
+        margin-top: 10px;
+    }
+
+    .flip-card-back {
+        height: 450px;
+    }
+
+    .pWrapper > h2 {
+        font-size: 18px;
+    }
+    
+    .pWrapper > p {
+        font-size: 13px;
+    }
+    
+}
