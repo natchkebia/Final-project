@@ -1,3 +1,4 @@
+'use strict'
 import {fetchDrinkInformation} from './axios.js'
 
 // ! slide
